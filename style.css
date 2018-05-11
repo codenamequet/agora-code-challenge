@@ -1,0 +1,378 @@
+@media only screen and (max-width: 600px) {
+    .headline {
+        font-family: 'Open Sans', sans-serif;
+        background: url('images/HeadlineImage_1.jpg');
+        background-size: cover;
+        height: 30vh;
+        width: 100vw;
+        color: #fff
+    }
+    .line-1 {
+        margin-left: 25vw;
+    }
+    .line-2 {
+        color: red;
+        text-align: center;
+        font-size: 20px;
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0) 100%);
+    }
+    .line-3 {
+        margin-left: 23vw;
+    }
+    .line-4 {
+        margin-left: 15vw;
+    }
+    .section-1-images {
+        background: #c39b7c
+    }
+    .cupcake img {
+        display: block;
+        margin: 0 auto;
+    }
+    .cupcake p {
+        font-size: 48px;
+        text-align: center;
+    }
+    .pudding img {
+        display: block;
+        margin: 0 auto; 
+    }
+    .pudding p {
+        font-size: 48px;
+        text-align: center;
+    }
+    .squares img {
+        display: block;
+        margin: 0 auto;
+    }
+    .squares p {
+        font-size: 48px;
+        text-align: center;
+    }
+    .paralax {
+        color: #fff;
+    }
+    .paralax img {
+        height: 20vh;
+        width: 100vw;
+    }
+    .paralax h4 {
+        margin-top: -15vh;
+    }
+    .brown-bar {
+        height: 60vh;
+        width: 100vw;
+        background: #3d1c0f;
+        margin-top: 5vh;
+        color: #fff;
+    }
+    .brown-bar-p1 {
+        padding-top: 2vh;
+        padding-left: 3vw;
+    }
+    .brown-bar-p2 {
+        padding-left: 3vw;
+    }
+    .doctor {
+        height: 40vh;
+        width: 50vw;
+        display: block;
+        margin: 0 auto;
+    }
+    .red-section {
+        background: url('images/Gears_15.jpg');
+        background-size: cover;
+        height: 55vh;
+    }
+    .red-section h2 {
+        color: #FFCD2F;
+        text-align: center;
+        padding-top: 2vh;
+    }
+    .gears {
+        display: none;
+    }
+    .berbinex {
+        width: 100vw;
+    }
+    .delivery {
+        display: block;
+        margin: 0 auto;
+    }
+    .two-bottles {
+        display: none;
+    }
+    .four-bottles {
+        display: none;
+    }
+    .order {
+        height: 35vh;
+        width: 100vw;
+        background: #495E40;
+    }
+    .order-text {
+        margin-left: 38vw;
+        color: #fff;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .order-now {
+        font-size: 24px;
+        margin-top: -40vh;
+        padding-top: 5vh;
+    }
+    .free {
+        font-size: 80px;
+        color: #F9D63F;
+        transform: scaleY(1.8);
+        margin-top: -1vh;
+        margin-left: 45vw;
+    }
+    .shipping {
+        font-size: 54px;
+        margin-left: 41vw;
+        margin-top: -8vh;
+    }
+    .cart {
+        background: #E47E25;
+        height: 15vh;
+        width: 80vw;
+        margin-left: 8vw;
+        border: solid #fff 3px;
+    }
+    .add {
+        color: #fff;
+        font-size: 30px;
+        margin-top: 2vh;
+    }
+    .review {
+        margin-top: -2vh;
+    }
+    .product-label {
+        color: #2BB673;
+        text-align: center;
+    }
+    .tree-background {
+        background: url('images/TransparentArrowBkgd.jpg');
+        background-size: cover;
+    }
+    .disclaimer {
+        color: white;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 601px) {
+    .headline {
+        font-family: 'Open Sans', sans-serif;
+        background: url('images/HeadlineImage_1.jpg');
+        background-size: cover;
+        height: 80vh;
+        color: #fff;
+        font-size: 6vh;
+        margin-top: -6vh;
+    }
+    .line-1 {
+        margin-left: 30vw;
+    }
+    .line-2 {
+        color: red;
+        margin-top: -1vh;
+        text-align: center;
+        font-size: 72px;
+        transform: scaleY(1.8);
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0) 100%);
+    }
+    .line-3 {
+        margin-top: -5vh;
+        margin-left: 28vw;
+    }
+    .line-4 {
+        margin-top: -5vh;
+        margin-left: 22vw;
+    }
+    .cupcake p {
+        font-size: 48px;
+        text-align: center;
+    }
+    .pudding p {
+        font-size: 48px;
+        text-align: center;
+    }
+    .squares p {
+        font-size: 48px;
+        text-align: center;
+    }
+    .question {
+        margin-left: 10vw;
+        font-size: 22px;
+    }
+    .section-1-images {
+        display: flex;
+        justify-content: space-around;
+        background: #c39b7c
+    }
+    .section-1-facts p {
+        margin-left: 10vw;
+        font-size: 20px
+    }
+    .paralax {
+        background: url('images/ParallaxOne_5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 55vh;
+        width: 100vw;
+        color: #fff;
+        font-size: 14px;
+    }
+    .paralax h4 {
+        font-size: 56px;
+        padding: 10vh;
+    }
+    .paralax p {
+        font-size: 24px;
+        margin-top: -15vh;
+        margin-left: 5vw
+    }
+    .paralax img {
+        display: none;
+    }
+    .brown-bar {
+        height: 45vh;
+        width: 85vw;
+        background: #3d1c0f;
+        margin-top: 5vh;
+        font-size: 24px;
+        color: #fff;
+    }
+    .brown-bar-p1 {
+        margin-top: -40vh;
+        padding-left: 32vw;
+        width: 50vw;
+    }
+    .brown-bar-p2 {
+        padding-left: 32vw;
+        display: inline-block;
+    }
+    .doctor {
+        margin-top: -5vh;
+        display: inline-block;
+    }
+    .explanation {
+        margin-top: 15vh;
+        margin-left: 10vw;
+        font-size: 24px;
+    }
+    .red-section {
+        height: 70vh;
+        width: 100vw;
+        display: block;
+        background: #A41F25;
+    }
+    .red-section h2 {
+        color: #FFCD2F;
+        font-size: 30px;
+        margin-left: 10vw;
+        padding-top: 2vh;
+    }
+    .red-section p {
+        color: #fff;
+        font-size: 24px;
+        margin-left: 10vw;
+    }
+    .gears { 
+        height: 55vh;
+        width: 30vw;
+        float: right;
+    }
+    .delivery {
+        float: right;
+        margin-right: 10vw;
+    }
+    .berbinex {
+        display: block;
+        margin: 5vh auto;
+    }
+    .last-section p {
+        font-size: 24px;
+        margin-left: 10vw;
+    }
+    .last-section h1 {
+        font-size: 40px;
+        margin-left: 10vw;
+    }
+    .order {
+        height: 50vh;
+        width: 100vw;
+        background: #495E40;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .order-text {
+        margin-top: -40vh;
+        margin-left: 50vw;
+        color: #fff;
+    }
+    .order-now {
+        font-size: 40px;
+        margin-left: 40vw;
+    }
+    .free {
+        font-size: 120px;
+        color: #F9D63F;
+        transform: scaleY(1.8);
+        margin-top: -5vh;
+        margin-left: 45vw;
+        padding-top: -5vh;
+    }
+    .shipping {
+        font-size: 100px;
+        margin-left: 40vw;
+        padding-top: 20vh;
+    }
+    .real-final-section {
+        font-size: 18px;
+        margin-left: 25vw;
+        width: 50vw;
+        
+    }
+    .cart {
+        background: #E47E25;
+        height: 15vh;
+        width: 35vw;
+        margin-left: 30vw;
+        border: solid #fff 3px;
+    }
+    .one-bottle {
+        display: none;
+    }
+    .two-bottles {
+        margin-top: 5vh;
+        margin-left: 10vw;
+    }
+    .four-bottles {
+        margin-left: 40vw;
+    }
+    .add {
+        color: #fff;
+        font-size: 48px;
+        margin-top: 2vh;
+    }
+    .review {
+        margin-top: -7vh;
+    }
+    .product-label {
+        color: #2BB673;
+        margin-left: 21vw;
+    }
+    .tree-background {
+        background: url('images/TransparentArrowBkgd.jpg');
+        background-size: cover;
+    }
+    .disclaimer {
+        color: #fff;
+        width: 40vw;
+        text-align: center;
+        margin-left: 28vw;
+    }
+}
